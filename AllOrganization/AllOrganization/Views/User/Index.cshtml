@@ -1,0 +1,47 @@
+﻿@model AllOrganization.Models.UserLogin
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+ 
+<div class="login" style="width:350px !important;margin:0 auto; margin-top:200px;">
+ 
+<div class="box-header">
+ 
+<h2> Admin Panel Yönetimi</h2>
+ 
+  </div>
+ 
+ 
+<div class="box">
+ 
+<div class="notification tip"><span class="strong"> Admin Panel Giriş</span>@Html.ValidationSummary(false,"")</div>
+ 
+ @using (Html.BeginForm("Login", "User",  FormMethod.Post))
+ { 
+        <div>
+            @Html.LabelFor(m => m.Username)
+            @Html.EditorFor(m => m.Username)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Password)
+            @Html.EditorFor(m => m.Password)
+        </div>
+        <input type="submit" value="Send" />
+       
+ }                   
+  </div>
+ 
+</div>
+ 
+</body>
+</html>

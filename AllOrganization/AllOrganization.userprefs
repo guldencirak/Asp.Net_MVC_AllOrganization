@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{7998F06A-22CB-4840-80B8-24547C1F28F1}|">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/guldencirak/Projects/AllOrganization/AllOrganization/Service/UserLoginServiceImpl.cs" relfile="AllOrganization/Service/UserLoginServiceImpl.cs" line="12" column="1" />
+      <Breakpoint enabled="false" file="/Users/guldencirak/Projects/AllOrganization/AllOrganization/Controllers/UserController.cs" relfile="AllOrganization/Controllers/UserController.cs" line="25" column="1" />
+      <Breakpoint enabled="false" file="/Users/guldencirak/Projects/AllOrganization/AllOrganization/DAO/UserLoginDAOImpl.cs" relfile="AllOrganization/DAO/UserLoginDAOImpl.cs" line="15" column="1" />
+      <Breakpoint file="/Users/guldencirak/Projects/AllOrganization/AllOrganization/DAO/UserLoginDAOImpl.cs" relfile="AllOrganization/DAO/UserLoginDAOImpl.cs" line="34" column="1" />
+      <Breakpoint file="/Users/guldencirak/Projects/AllOrganization/AllOrganization/DAO/UserLoginDAOImpl.cs" relfile="AllOrganization/DAO/UserLoginDAOImpl.cs" line="44" column="10" />
+      <Breakpoint file="/Users/guldencirak/Projects/AllOrganization/AllOrganization/DAO/UserLoginDAOImpl.cs" relfile="AllOrganization/DAO/UserLoginDAOImpl.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AllOrganization PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
